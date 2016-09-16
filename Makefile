@@ -95,7 +95,7 @@ TARGET = $(shell basename $(PWD))
 
 # Where do you keep the official Arduino software package?
 ifeq "$(UNAME)" "Darwin"
-  ARDUINO_DIR = /Applications/Arduino.app/Contents/Resources/Java
+  ARDUINO_DIR = /Applications/Arduino.app/Contents/Java
  else
   ifeq "$(UNAME)" "Linux"
    ARDUINO_DIR = /usr/share/arduino
